@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Guess the number</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the number</h1>
+        <div id="feedback" class="test">
+            <p id="msg">aqui fica alguma msg</p>
+            <button id="easyb" class="btn" onclick="começar(1)">easy</button>
+            <button id="mediumb" class="btn" onclick="começar(2)">medium</button>
+            <button id="hardb" class="btn" onclick="começar(3)">hard</button>
+        </div>
+        <p id="pchances">
+            <i class="far fa-heart" id="heart"> 10</i>
+        </p>
+        <div class="info">
+            <input type="number" id="player"> <button id="guessb">try!</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
